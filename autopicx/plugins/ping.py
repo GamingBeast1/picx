@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # -- Constants -- #
 HELP = """
-𝘼𝙪𝙩𝙤𝙋𝙞𝙘𝙓 __Commands__
+𝙋𝙞𝙘𝙓 __Commands__
 
 `!start` - __To Start Changing DP__
 `!cancel` - __To Cancel Changing DP__
@@ -26,12 +26,11 @@ ABOUT_TXT = """
 ᪥ **Name:** 𝘼𝙪𝙩𝙤𝙋𝙞𝙘𝙓
 ᪥ **Library: [Telethon](https://docs.telethon.dev/)**
 ᪥ **Language: [Python 3](https://www.python.org)**
-᪥ **Dev:** [𝙄𝙩𝙨 ⚡ 𝙅𝙤𝙚𝙡](https://t.me/joel_noob)
-᪥ **Inspiration: [Dᴋ 🇮🇳](https://t.me/AbOutMe_DK)**
+᪥ **Dev:** [Ekampreet Singh](https://t.me/EK4mpreetsingh)
 """
 
 REPO = """
-𝘼𝙪𝙩𝙤𝙋𝙞𝙘𝙓 __is an Open Source UserBot based on Telethon you can access it's source code from **[here](https://github.com/git-itsjoel/AutoPicX)**__
+𝙋𝙞𝙘𝙓 __is not an Open Source UserBot based on Telethon you can access it's source code from **[here](https://t.me/Ek4mpreetSingh)**__
 """
 
 @client.on(events.NewMessage(outgoing=True, pattern='!repo'))
@@ -54,4 +53,5 @@ async def alive(event):
     await event.edit("▣▢▢")
     await event.edit("▣▣▢")
     await event.edit("▣▣▣")
-    await event.edit("𝘼𝙪𝙩𝙤𝙋𝙞𝙘𝙓 𝙄𝙨 𝘼𝙘𝙩𝙞𝙫𝙚")
+    await event.edit("(～￣▽￣)～")
+    await event.edit("𝙋𝙞𝙘𝙓 𝙄𝙨 𝘼𝙘𝙩𝙞𝙫𝙚")
