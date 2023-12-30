@@ -45,7 +45,7 @@ async def handle_cancel(event):
         await msg.delete()
         return
     temp.CANCEL = True
-    msg = await event.respond('𝘾𝙖𝙣𝙘𝙚𝙡𝙞𝙣𝙜 𝘼𝙪𝙩𝙤𝙋𝙞𝙘𝙓...')
+    msg = await event.respond('𝘾𝙖𝙣𝙘𝙚𝙡𝙞𝙣𝙜 𝙋𝙞𝙘𝙓...')
     await asyncio.sleep(30)
     await msg.delete()
 
@@ -58,7 +58,7 @@ async def handle_start(event):
         await msg.delete()  
         return      
     try:
-        msg = await event.respond("𝙇𝙖𝙪𝙣𝙘𝙝𝙞𝙣𝙜 𝘼𝙪𝙩𝙤𝙋𝙞𝙘𝙓......")
+        msg = await event.respond("𝙇𝙖𝙪𝙣𝙘𝙝𝙞𝙣𝙜 𝙋𝙞𝙘𝙓......")
         await change_profile_pic(client)
         await asyncio.sleep(30)
         await msg.delete()
