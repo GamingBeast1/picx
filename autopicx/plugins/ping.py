@@ -65,7 +65,7 @@ async def alive(event):
     await event.edit("▣▢▢")
     await event.edit("▣▣▢")
     await event.edit("▣▣▣")
-    await event.edit("Teri maa ki choot gand kay tatto teri maa ka bhosda karke uski gaand mai ping pong kar dunga
+    await event.edit("Teri maa ki choot gand kay tatto teri maa ka bhosda karke uski gaand mai ping pong kar dunga")
 
                      
 @client.on(events.NewMessage(outgoing=True, pattern='!gay'))
