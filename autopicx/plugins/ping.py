@@ -20,10 +20,12 @@ HELP = """
 `!repo` - __To Get The Repo__
 `!about` - __Details About Me__
 `!help` - __For This Message__
+`!hype` - __To send abusive words__
+`!gay` - __To send gay message__
 """
 
 ABOUT_TXT = """
-᪥ **Name:** 𝘼𝙪𝙩𝙤𝙋𝙞𝙘𝙓
+᪥ **Name:** Id manager bot
 ᪥ **Library: [Telethon](https://docs.telethon.dev/)**
 ᪥ **Language: [Python 3](https://www.python.org)**
 ᪥ **Dev:** [Ekampreet Singh](https://t.me/EK4mpreetsingh)
@@ -48,6 +50,16 @@ async def help_me(event):
 
 
 @client.on(events.NewMessage(outgoing=True, pattern='!alive'))
+async def alive(event):
+    txt = await event.edit("▢▢▢")
+    await event.edit("▣▢▢")
+    await event.edit("▣▣▢")
+    await event.edit("▣▣▣")
+    await event.edit("(～￣▽￣)～")
+    await event.edit("Bot is active")
+
+
+@client.on(events.NewMessage(ingoing=True, pattern='!hype'))
 async def alive(event):
     txt = await event.edit("▢▢▢")
     await event.edit("▣▢▢")
