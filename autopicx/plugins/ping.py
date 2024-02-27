@@ -59,11 +59,17 @@ async def alive(event):
     await event.edit("Bot is active")
 
 
-@client.on(events.NewMessage(ingoing=True, pattern='!hype'))
+@client.on(events.NewMessage(outgoing=True, pattern='!hype'))
 async def alive(event):
     txt = await event.edit("▢▢▢")
     await event.edit("▣▢▢")
     await event.edit("▣▣▢")
     await event.edit("▣▣▣")
-    await event.edit("(～￣▽￣)～")
-    await event.edit("𝙋𝙞𝙘𝙓 𝙄𝙨 𝘼𝙘𝙩𝙞𝙫𝙚")
+    await event.edit("Teri maa ki choot gand kay tatto teri maa ka bhosda karke uski gaand mai ping pong kar dunga
+
+                     
+@client.on(events.NewMessage(outgoing=True, pattern='!gay'))
+async def alive(event):
+    txt = await event.edit("You")
+    await event.edit("are")
+    await event.edit("gay🏳️‍🌈🏳️‍🌈")
